@@ -13,6 +13,7 @@ import 'package:flutter/cupertino.dart';
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               CupertinoTextField(
                 placeholder: 'Логин или почта',
@@ -20,17 +21,38 @@ import 'package:flutter/cupertino.dart';
               CupertinoTextField(
                 placeholder: 'Пароль',
               ),
-              CupertinoButton.filled(
+            const SizedBox(height: 32),
+
+          Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: CupertinoButton(
+                color: const Color(0xFF4631D2),
+                padding: const EdgeInsets.symmetric(vertical: 20),
                 child: const Text('Войти'),
                 onPressed: () {},
-              ),
-              CupertinoButton.filled(
-                child: const Text('Зарегистрироваться'),
+          ),
+          ),
+                const SizedBox(height: 19),
+          Padding(    
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: CupertinoButton(
+                color: const Color(0xFF4631D2),
+                padding: const EdgeInsets.symmetric(vertical: 20),
+                child: const Text(
+                    'Зарегистрироваться',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+                ),
                 onPressed: () {},
-              ),
+      ),
+          ),
+
             ],
+
           ),
         ),
       );
+
     }
   }

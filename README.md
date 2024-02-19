@@ -2,15 +2,25 @@
 
 A new Flutter project.
 
-## Getting Started
+Function:
+Authorization and registration
+Storing data in local storage
+Navigation between pages and tabs
+Working with the server - getting data
+and adding it to favorites
+Working with Google Maps
+Getting images from the device's camera/gallery
+Search by name
 
-This project is a starting point for a Flutter application.
+Pages:
+The application consists of 7 screenshots (pages):
 
-A few resources to get you started if this is your first Flutter project:
+Authorization
+Registration
+Tape
+Restaurant Page
+Map
+Favorites
+Profile
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Design: https://www.figma.com/file/AZM6oehjAZjhBXFRIs6QLR/Test-Task-Design?type=design&node-id=0%3A1&mode=design&t=HD1cNrhBmvfKpU5R-1
